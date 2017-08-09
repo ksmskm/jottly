@@ -1,0 +1,22 @@
+{
+  "name": "jottly",
+  "version": "1.0.0",
+  "description": "landing page tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ksmskm",
+  "license": "ISC",
+  "devDependencies": {
+    "beepbeep": "^1.2.1",
+    "browser-sync": "^2.18.12",
+    "browserify": "^14.4.0",
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
