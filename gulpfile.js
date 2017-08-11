@@ -21,6 +21,16 @@ gulp.task('sass', function() {
   .pipe(livereload());
 });
 
+// CSS
+gulp.task('css', function() {
+  return gulp.src([
+    './css/custom.css',
+    './css/skeleton.css'
+  ])
+  .pipe(plumber({ errorHandler: onError }))
+  .pipe(livereload());
+})
+
 // HTML
 gulp.task('html', function() {
   return gulp
@@ -33,8 +43,10 @@ gulp.task('default', function() {
   livereload.listen();
   // gulp.watch(['./scss/_mixins.scss', './scss/_styles.scss', './scss/app.scss'], ['sass']);
   gulp.watch('./*.html', ['html']);
+  gulp.watch(['./css/custom.css', './css/skeleton.css'], ['css']);
 })
 
+// OTHER
 gulp.task('build', function() {
   gulp.start('sass');
 });

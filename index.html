@@ -10,15 +10,19 @@
   <!-- Mobile Specific Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"> -->
 
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+  
   <link rel="stylesheet" href="css/normalize.css">  
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/animate.css"> 
+  <link rel="stylesheet" href="css/custom.css">
   <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
 <body>
-  <header>
+  <header class="animated fadeInDown">
 
     <div class="container">
       <div class="three columns">
@@ -31,7 +35,7 @@
         <nav>
           <ul>
             <li><a href="#">Sign In</a></li>
-            <li><a href="#">Sign Up Now</a></li>
+            <li><a class="btn" href="#">Sign Up Now</a></li>
           </ul>
         </nav>        
       </div>
@@ -39,7 +43,7 @@
     </div>
 
     <div class="container">
-      <div class="seven columns">
+      <div class="seven columns headertext animated fadeInDown">
         <h1>An easier way to write &amp; collaborate</h1>
 
         <p>Put down the pen and paper. Jott.ly helps you organize your <strong>life, home and office</strong>. It's a simple way to store and share ideas with your loved ones, friends and colleagues.</p>
@@ -102,9 +106,9 @@
 
               <section>
                 
-                <h4>$2</h4>
+                <h4><span>$</span>2</h4>
 
-                <p>per month/per user</p>
+                <p>per month<br>/per user</p>
 
                 <ul>
                   <li>Unlimited notes</li>
@@ -113,14 +117,14 @@
                 </ul>
 
                 <button>Select this plan</button>
-                
+
               </section>
 
             </div>            
           </div>
 
           <div class="one-third column">
-            <div class="pricebox">
+            <div class="pricebox deal">
               <header>
                 
                 <h3>Small Businesses</h3>
@@ -129,8 +133,8 @@
 
               <section>
 
-                <h4>$5</h4>
-                <p>per month/per user</p>
+                <h4><span>$</span>5</h4>
+                <p>per month<br>/per user</p>
 
                 <ul>
                   <li>Unlimited notes</li>
@@ -156,8 +160,8 @@
 
               <section>
                 
-                <h4>$8</h4>
-                <p>per month/per user</p>
+                <h4><span>$</span>8</h4>
+                <p>per month<br>/per user</p>
 
                 <ul>
                   <li>Unlimited notes</li>
@@ -178,57 +182,110 @@
 
     </section>
     <section class="testimonials">
-      <h2>Who's using it?</h2>
-      <p>Jott.ly has around 150,000 satisfied customers sharing and collaborating with teams throught 35 countries. Here's what a few had to say:</p>
 
-      <blockquote>“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo."</blockquote>
+      <div class="container">
+        <div class="eight columns offset-by-two">
+          
+          <h2>Who's using it?</h2>
+          <p>Jott.ly has around 150,000 satisfied customers sharing and collaborating with teams throught 35 countries. Here's what a few had to say:</p>
+          
+        </div>
 
-      <div class="avatar">
-        <img src="images/avatar1.jpg" alt="Danny">
-        <p>Danny S.</p>
+        <div class="row">
+          <div class="one-third column">
+            
+            <blockquote>“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo."</blockquote>
+
+            <div class="avatar">
+              <img src="images/avatar1.jpg" alt="Danny">
+              <p>Danny S.</p>
+            </div>
+            
+          </div>
+          <div class="one-third column">
+            
+            <blockquote>
+              “Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo."
+            </blockquote>
+            <div class="avatar">
+              <img src="images/avatar2.jpg" alt="Jonathan M."  />
+              <p>Jonathan M.</p>
+            </div>
+            
+          </div>
+          <div class="one-third column">
+            
+            <blockquote>
+              “Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo."
+            </blockquote>
+            <div class="avatar">
+              <img src="images/avatar3.jpg" alt="Chloe P."  />
+              <p>Chloe P.</p>
+            </div>
+            
+          </div>
+
+        </div>
+
       </div>
 
-      <blockquote>
-        “Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo."
-      </blockquote>
-      <div class="avatar">
-        <img src="images/avatar2.jpg" alt="Jonathan M."  />
-        <p>Jonathan M.</p>
-      </div>
-       
-      <blockquote>
-        “Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo."
-      </blockquote>
-      <div class="avatar">
-        <img src="images/avatar3.jpg" alt="Chloe P."  />
-        <p>Chloe P.</p>
-      </div>      
     </section>
 
     <section class="action">
-      <h2>Give it a try before you commit.</h2>
-      <p>You can test drive Jott.ly before deciding on one of our plans. Just give us your email address, and we'll send you the details:</p>
 
-      <input type="email" placeholder="Enter your e-mail">
+      <div class="container">
+        <div class="eight columns offset-by-two">
+          
+          <h2>Give it a try before you commit.</h2>
+          <p>You can test drive Jott.ly before deciding on one of our plans. Just give us your email address, and we'll send you the details:</p>
 
-      <button type="submit">Sign Up Now!</button>
+          <div class="row">
+            <div class="eight columns alpha">
+              
+              <input type="email" placeholder="Enter your e-mail">
+              
+            </div>
+
+            <div class="four columns omega">
+              
+              <button type="submit">Sign Up Now!</button>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
 
     </section>
   </main>
 
   <footer>
-    <nav>
-      <ul>
-        <li><a href="#"></a>About</li>
-        <li><a href="#"></a>Contact</li>
-        <li><a href="#"></a>Privacy Policy</li>
-        <li><a href="#"></a>Terms</li>
-      </ul>
-    </nav>
+    <div class="container">
+      <div class="eight columns">
+        
+        <nav>
+          <ul>
+            <li><a href="#"></a>About</li>
+            <li><a href="#"></a>Contact</li>
+            <li><a href="#"></a>Privacy Policy</li>
+            <li><a href="#"></a>Terms</li>
+          </ul>
+        </nav>
+        
+      </div>
+      <div class="two columns">
+        
+        <img src="images/small_logo.png" alt="Jott.ly">
+        
+      </div>
+      <div class="two columns">
+        
+        <p>&copy; 2015. Jott.ly. All Rights Reserved.</p>
+        
+      </div>
+    </div>
 
-    <img src="images/small_logo.png" alt="logo">
 
-    <p>&copy; 2015. Jott.ly. All Rights Reserved.</p>
   </footer>
 </body>
 </html>
