@@ -1,0 +1,284 @@
+/* HEADER */
+
+body > header {
+  background-image: url('../images/header.jpg');
+  background-position: top center;
+  background-repeat:no-repeat;
+
+  background-size: cover;
+  min-height: 680px;
+  width: 100%;
+}
+
+.logo {
+  margin-top: 1em;
+}
+
+header nav {
+  text-align: right;
+  margin-top: 2em;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.75em 2em;
+}
+
+header nav ul li a.btn {
+  border-radius: 4px;
+  border: 2px solid #fff;
+}
+
+header nav ul li a.btn:hover {
+  background: #fff;
+  color: #009be8;
+}
+
+header .headertext {
+  margin-top: 10em;
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+
+header h1 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 4.5em;
+  line-height: 1;
+  text-shadow: 0 1px 2px rgba(0,0,0,.2);
+  margin-bottom: 0.3em;
+}
+
+header p {
+  color: #d5d5d5;
+  font-size: 1.33em;
+  line-height: 1.5;
+  text-shadow: 0 1px 2px rgba(0,0,0,.2);
+  margin-bottom: 1.2em;
+}
+
+header p strong {
+  color: #fff;
+}
+
+ /*BENEFITS */
+ .benefits {
+  padding: 4em 0;
+  text-align: center;
+ }
+
+ .benefits p {
+  color: #9d9d9d;
+  font-size: 1.1em;
+ }
+
+/* GENERAL */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ /*PRICING */
+
+.pricing {
+  background: #009be8;
+  padding: 4em 0;
+  text-align: center;
+}
+
+.pricing h2 {
+  color: #fff;
+  font-weight: 300;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+  font-size: 1.2em;
+}
+
+.pricebox {
+  background-color: #fff;
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+  margin-top: 3em;
+  height: 460px;
+  position: relative;
+}
+
+.pricebox.deal {
+  margin-top: 2em;
+  height: 500px;
+}
+
+.pricebox header {
+  background-color: #f1f1f1;
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+  padding: 1em 0;
+  margin-bottom: 2em;
+}
+
+.pricebox header h3 {
+  color: #4d4d4d;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 600;
+}
+
+.pricebox section button {
+  background: #2ecc71;
+  position: absolute;
+  bottom: 1em;
+  width: 90%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pricebox section button:hover {
+  background: #1fae5c;
+}
+
+.pricebox section h4 {
+  display: inline-block;
+  color: #009be8;
+  font-size: 5em;
+  font-weight: 900;
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+.pricebox section h4 span {
+  font-size: 0.5em;
+  line-height: 1;
+  vertical-align: top;
+  position: relative;
+  top: 20px;
+}
+
+.pricing .pricebox section p {
+  display: inline-block;
+  color: #9d9d9d;
+  text-shadow: none;
+  line-height: 1;
+  position: relative;
+  top: 2.25em;
+  font-size: 1.1em;
+  text-align: left;
+}
+
+.pricebox section ul li {
+  font-size: 1.2em;
+  margin-bottom: 1.2em;
+}
+
+/*TESTIMONIALS */
+.testimonials {
+  padding: 4em 0;
+  text-align: center;
+}
+
+.testimonials h2 {
+  color: #009be8;
+  font-weight: 300;
+}
+
+.testimonials p {
+  color: #9d9d9d;
+  font-size: 1.2em;
+}
+
+.testimonials blockquote {
+  border: none;
+  text-align: left;
+  padding: 0 1.5em 0 0;
+  font-size: 1em;
+  color: #4d4d4d;
+  line-height: 1.4;
+  margin: 1em 0;
+}
+
+.testimonials .avatar img {
+  border-radius: 50%;
+  float: left;
+  display: inline;
+  margin-right: 1em;
+  width: 65px;
+  height: 65px;
+}
+
+.testimonials .avatar p {
+  text-align: left;
+  padding-top: 1em;
+  color: #5d5d5d;
+  font-weight: 900;
+}
+
+/* ACTION */
+.action {
+  background: url('../images/action.jpg') top center no-repeat;
+  background-size: cover;
+  min-height: 180px;
+  width: 100%;
+  padding: 4em 0;
+  text-align: center;
+}
+
+.action h2 {
+  color: #fff;
+  font-weight: 300;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+
+.action p {
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+  font-size: 1.2em;
+}
+
+.action .row {
+  margin-top: 3em;
+}
+
+/* FOOTER */
+footer {
+  background: #009be8;
+  padding: 1em 0;
+}
+
+footer nav ul {
+  margin-top: 0.5em;
+}
+
+footer nav ul li {
+  display: inline;
+  margin: 0;
+}
+
+footer nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 1em 0 0;
+  font-size: 1em;
+}
+
+footer img {
+  float: right;
+}
+
+footer p {
+  color: #fff;
+  line-height: 1;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  margin-top: 0.5em;
+}
